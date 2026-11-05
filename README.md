@@ -22,7 +22,7 @@ Tableau de bord Power BI sur la consommation électrique horaire de 1 636 bâtim
 
 ## Démonstration
 
-[Voir la vidéo de démonstration](LIEN_DE_VOTRE_PUBLICATION_LINKEDIN) (à remplacer après publication)
+[Voir la vidéo de démonstration](https://lnkd.in/p/e5x7PQHt) 
 
 ## Structure du dépôt
 
