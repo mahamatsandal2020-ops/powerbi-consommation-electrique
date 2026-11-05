@@ -18,7 +18,7 @@ Tableau de bord Power BI sur la consommation électrique horaire de 1 636 bâtim
 5. **Mesures DAX :** Total GWh, Nb jours, Moyenne journalière, Pic horaire, Moyenne horaire, Nb bâtiments actifs, Part du total.
 6. **Visualisations :** quatre cartes KPI, trois graphiques (évolution journalière, répartition par usage, journée type), quatre segments (année, type de jour, usage, site).
 7. **Info-bulles :** deux pages, l'une affichant le profil horaire du jour survolé, l'autre la répartition par site d'un usage.
-8. **Documentation :** guide PDF pas à pas (`docs/`), description du thème visuel (`docs/theme.md`).
+8. **Documentation :** guide PDF pas à pas (`Power_BI_Debutant_Consommation_Electrique.pdf`), description du thème visuel (`theme.md`), schéma des relations (`Relation.png`).
 
 ## Démonstration
 
@@ -28,16 +28,18 @@ Tableau de bord Power BI sur la consommation électrique horaire de 1 636 bâtim
 
 ```
 .
-├── README.md
-├── powerbi/     fichier .pbix du tableau de bord
-├── docs/        guide PDF et description du thème
-└── data/        métadonnées des bâtiments (le fichier de consommation est trop volumineux, voir ci-dessous)
+├── README.md                                     présentation du projet
+├── Electricity_consumption.pbix                  tableau de bord Power BI
+├── Power_BI_Debutant_Consommation_Electrique.pdf guide pas à pas
+├── theme.md                                      description du thème visuel
+├── Relation.png                                  schéma des relations du modèle
+└── metadata.csv                                  description des bâtiments
 ```
 
 ## Données
 
-- `data/metadata.csv` : une ligne par bâtiment (usage, site, surface).
-- Le fichier de consommation horaire (`electricity_cleaned.csv`, environ 175 Mo) dépasse la limite de GitHub. Il est disponible à partir de la publication source ci-dessous.
+- `metadata.csv` : une ligne par bâtiment (usage, site, surface).
+- Le fichier de consommation horaire (`electricity_cleaned.csv`, environ 167 Mo) dépasse la limite de GitHub. Il est disponible à partir de la publication source ci-dessous.
 
 ## Limites connues
 
